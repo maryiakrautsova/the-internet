@@ -10,4 +10,6 @@ public class Urls {
     public static final String DISAPPEARING_ELEMENTS_URL = "http://the-internet.herokuapp.com/disappearing_elements";
 
     public static final String DRAG_AND_DROP_URL = "https://demo.guru99.com/test/drag_drop.html";
+    public static final String DROPDOWN_URL = "https://demo.guru99.com/test/drag_drop.html";
+    public static final String DYNAMIC_CONTENT_URL = "http://the-internet.herokuapp.com/dynamic_content";
 }
