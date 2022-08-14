@@ -1,6 +1,9 @@
 package drivermanager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,6 +26,16 @@ public abstract class DriverManager {
 
     public void removeTimeout() {
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+    }
+
+    public void setExplicitWaitForCheckbox() {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 30);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("#checkbox input")));
+    }
+
+    public void setExplicitWaitForInput() {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[type='text']")));
     }
 
     public void quiteDriver() {
