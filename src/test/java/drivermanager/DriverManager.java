@@ -38,6 +38,11 @@ public abstract class DriverManager {
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[type='text']")));
     }
 
+    public void setExplicitWaitForHiddenText() {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#finish > h4")));
+    }
+
     public void quiteDriver() {
         driver.quit();
     }

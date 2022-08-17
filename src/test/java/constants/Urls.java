@@ -13,4 +13,10 @@ public class Urls {
     public static final String DROPDOWN_URL = "https://demo.guru99.com/test/drag_drop.html";
     public static final String DYNAMIC_CONTENT_URL = "http://the-internet.herokuapp.com/dynamic_content";
     public static final String DYNAMIC_CONTROLS_URL = "http://the-internet.herokuapp.com/dynamic_controls";
+
+    public static final String DYNAMICALLY_LOADED_ELEMENTS_URL = "http://the-internet.herokuapp.com/dynamic_loading/1";
+
+    public static final String ENTRY_AD_URL = "http://the-internet.herokuapp.com/entry_ad";
+
+    public static final String FILE_DOWNLOADER_URL = "http://the-internet.herokuapp.com/download";
 }

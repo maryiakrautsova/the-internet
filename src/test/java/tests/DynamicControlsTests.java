@@ -8,7 +8,7 @@ import pages.DynamicControlsPage;
 public class DynamicControlsTests extends BaseTest {
 
     @Test
-    public void removeOrAddCheckboxCanBeGone() {
+    public void removeOrAddCheckboxCanBeGoneTest() {
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(getDriver());
         dynamicControlsPage.openDynamicControlsPage();
         dynamicControlsPage.clickRemoveOrAddButton();
@@ -26,7 +26,7 @@ public class DynamicControlsTests extends BaseTest {
     }
 
     @Test
-    public void removeOrAddCheckboxCanBeAdded() {
+    public void removeOrAddCheckboxCanBeAddedTest() {
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(getDriver());
         dynamicControlsPage.openDynamicControlsPage();
         dynamicControlsPage.clickRemoveOrAddButton();
@@ -36,7 +36,7 @@ public class DynamicControlsTests extends BaseTest {
     }
 
     @Test
-    public void inputCanBeEnabled() {
+    public void inputCanBeEnabledTest() {
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(getDriver());
         dynamicControlsPage.openDynamicControlsPage();
         dynamicControlsPage.clickEnableOrDisableButton();
@@ -49,7 +49,7 @@ public class DynamicControlsTests extends BaseTest {
     }
 
     @Test
-    public void inputCanBeDisabled() {
+    public void inputCanBeDisabledTest() {
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(getDriver());
         dynamicControlsPage.openDynamicControlsPage();
         dynamicControlsPage.clickEnableOrDisableButton();
