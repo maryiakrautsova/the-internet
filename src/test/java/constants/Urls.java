@@ -19,4 +19,9 @@ public class Urls {
     public static final String ENTRY_AD_URL = "http://the-internet.herokuapp.com/entry_ad";
 
     public static final String FILE_DOWNLOADER_URL = "http://the-internet.herokuapp.com/download";
+
+    public static final String FILE_UPLOAD_URL = "http://the-internet.herokuapp.com/upload";
+
+    public static final String FLOATING_MENU_URL = "http://the-internet.herokuapp.com/floating_menu#home";
+    public static final String LOGIN_URL = "http://the-internet.herokuapp.com/login";
 }
