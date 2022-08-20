@@ -24,4 +24,5 @@ public class Urls {
 
     public static final String FLOATING_MENU_URL = "http://the-internet.herokuapp.com/floating_menu#home";
     public static final String LOGIN_URL = "http://the-internet.herokuapp.com/login";
+    public static final String IFRAME_URL = "http://the-internet.herokuapp.com/iframe";
 }
